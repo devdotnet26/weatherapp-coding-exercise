@@ -1,0 +1,24 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.log
+
+## Weather data cache (generated at runtime)
+WeatherApp.Api/weather-data/
+
+## Node / Vite
+WeatherApp.Client/node_modules/
+WeatherApp.Client/dist/
+WeatherApp.Client/.vite/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Rider / VS Code
+.idea/
+.vscode/
+*.swp
